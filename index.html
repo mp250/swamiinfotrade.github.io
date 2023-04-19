@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#9d4aff">
+	<title>Swami Infotrade</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+		body
+		{
+			font-family: 'Roboto', sans-serif;
+			font-weight: bold;
+			margin: 20px;
+		}
+		nav
+		{
+			background: #cdcdcd;
+		}
+		nav ul li
+		{
+			text-transform: uppercase;
+		}
+		nav li
+		{
+			list-style-type: none;
+			display: inline-block;
+			margin: 15px 20px;
+/*			border-bottom: 1px solid #444;*/
+			font-size: 20px;
+		}
+		nav ul
+		{
+			padding-left: 0px;
+			text-align: center;
+		}
+		nav ul li a 
+		{
+			text-decoration: none;
+			color: black;
+		}
+		img
+		{
+			width: 1300px;
+			/*margin-left: 500px;
+			margin-top: 50px;*/
+			border: 3px solid;
+			border-image: linear-gradient(red,lime,blue) 1;
+			box-shadow: 5px red;
+			max-width: 100%;
+			filter: contrast(200%);
+		}
+		h1
+		{
+			text-align: center;
+			letter-spacing: 3px;
+		}
+		.About article
+		{
+			text-align: center;
+			font-size: 30px;
+/*			text-decoration: underline;*/
+		}
+		.Contact
+		{
+			font-size: 20px;
+			background: linear-gradient(red,violet);
+		}
+		.Work
+		{
+			font-size: 20px;
+			background: black;
+			color: white;
+		}
+		.Trading
+		{
+			font-size: 20px;
+			background: linear-gradient(lime,blue);
+		}
+		.Designing
+		{
+			background: mediumpurple;
+			font-size: 20px;
+		}
+		.top 
+		{
+			color: red;
+			float: right;
+			margin-right: 40px;
+			border: 3px solid;
+			border-image: linear-gradient(45deg,#0F2A5F,#EE6C4D) 1;
+			text-decoration: none;
+			background: black;
+			font-size: 25px;
+			letter-spacing: 3px;
+		}
+		/*.Address
+		{
+			font-size: 30px;
+			color: white;
+			background: linear-gradient(goldenrod,purple);
+		}*/
+		.top:hover
+		{
+			background: white;
+			color: black;
+			border: 3px solid orange;
+			transition: .5s all;
+			transform: scale(1.3);
+			padding: 5px;
+			text-decoration-line: underline;
+			text-decoration-color: lime;
+		}
+		::-webkit-scrollbar
+		{
+			width: 10px;
+		}
+		::-webkit-scrollbar-track
+		{
+			background: red;
+			border-radius: 10px;
+		}
+		::-webkit-scrollbar-thumb
+		{
+			background: orange;
+			border-radius: 5px;
+		}
+		.heading
+		{
+			background: black;
+			color: white;
+		}
+		span 
+		{
+			background: red;
+			color: white;
+			animation-name: article;
+			animation-delay: 2s;
+			animation-timing-function: ease;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes article
+		{
+			0%{background: red; color: white; letter-spacing: 5px;}
+			50%{background: lime; color: black; letter-spacing: 7px;}
+			100%{background: blue; color: white; letter-spacing: 9px;}
+		}
+		p 
+		{
+			text-align: center;
+			font-size: 30px;
+		}
+		summary
+		{
+			text-align: center;
+			font-size: 25px;
+		}
+		details
+		{
+			border: 5px solid;
+			border-image: linear-gradient(red,lime,blue) 1;
+			background: black;
+			color: white;
+			border-radius: 5px;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="#About">About</a></li>
+				<li><a href="#Contact">Contact</a></li>
+				<li><a href="#Work">work</a></li>
+				<li><a href="#Trading">Trade</a></li>
+				<li><a href="#Designing">design</a></li>
+				<li><a href="#Address">Address</a></li>
+			</ul>
+		</nav>
+		<img src="C:\Users\User\Desktop/logo.jpg" alt="swamiinfotrade logo">
+		<h1 class="heading">SWAMI INFOTRADE</h1>
+	</div>
+						<br>
+						<hr>
+						<br>
+	<section class="About" id="About">
+		<h1><u>ABOUT</u></h1>
+		<article>
+			<span>Swami infotrade is an office of instrumental <u><b>trading + designing.</b></u></span>
+		</article>
+						<br><br>
+		<a href="#" class="top">TOP</a>
+		               <br><br><br>
+	</section>
+						<br>
+						<hr>
+						<br>
+	<section class="Contact" id="Contact">
+		<h1><u>CONTACT</u></h1>
+		<ul type="circle">
+			<li>Person Name:-<mark>Meet.N.Patel</mark></li><br><br>
+			<li>Contact No:-<mark>9974736718</mark></li><br><br>
+			<li>E-mail:-<a href="mailto:swamiinfotrade.com">swamiinfotrade.com</a></li>
+		</ul>
+						<br><br>
+		<a href="#" class="top">TOP</a>
+						<br><br><br>
+	</section>
+						<br>
+						<hr>
+						<br>
+	<section class="Work" id="Work">
+		<h1><u>WORK</u></h1>
+		<ul type="circle">
+			<li><mark>TRADING</mark></li><br><br>
+			<li><mark>DESIGN</mark></li><br><br>
+		</ul>
+						<br><br>
+		<a href="#" class="top">TOP</a>
+						<br><br><br>
+	</section>
+						<br>
+						<hr>
+						<br>
+	<section class="Trading" id="Trading">
+		<h1><u>TRADING</u></h1>
+		<ul type="circle">
+			<li><mark>INSTRUMENTAL VALVE</mark></li><br><br>
+			<li><mark>INSTRUMENTAL GUAGE</mark></li><br><br>
+			<li><mark>INSTRUMENTAL METER</mark></li><br><br>
+		</ul>
+						<br><br>
+		<a href="#" class="top">TOP</a>
+						<br><br><br>
+	</section>
+						<br>
+						<hr>
+						<br>
+	<section class="Designing" id="Designing">
+		<h1><u>DESIGNNG</u></h1>
+		<ul type="circle">
+			<li><mark>LOGO</mark></li><br><br>
+			<li><mark>VISITING CARD</mark></li><br><br>
+			<li><mark>THUMBNAIL</mark></li><br><br>
+			<li><mark>POSTER</mark></li><br><br>
+			<li><mark>BANNER</mark></li><br><br>
+			<li><mark>INSTAGRAM POST,STORY</mark></li><br><br>
+			<li><mark>FACEBOOK POST,STORY</mark></li><br><br>
+			<li><mark>STATIC WEB DESIGN</mark></li><br><br>
+			<li><mark>FLYER</mark></li><br><br>
+		</ul>
+						<br><br>
+		<a href="#" class="top">TOP</a>
+						<br><br><br>
+	</section>
+						<!-- <hr> -->
+	<!-- <section class="Address" id="Address">
+		<h1><u>Address</u></h1>
+		<p><mark>426.Lilleria Paramount,Opp-Aradhya Hospital,Nr-Tulsidam,Manjalpur-390010,Vadodara</mark></p>
+							<br>
+		<a href="#" class="top">TOP</a>
+						<br><br>
+	</section> -->
+						<hr>
+	<section class="Address" id="Address">
+		<details>
+			<summary>Address : </summary>
+			<p><mark>426.Lilleria Paramount,Opp-Aradhya Hospital,Nr-Tulsidam,Manjalpur-390010,Vadodara</mark></p>
+						<br>
+		<a href="#" class="top">TOP</a>
+						<br><br><br>
+		</details>
+	</section>
+</body>
+</html>
